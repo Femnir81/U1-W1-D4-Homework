@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    width: auto;
 }
 
 /* HEADER */
@@ -9,6 +10,7 @@ body {
 header {
     height: 23vh;
     background-color: #00A0C6;
+    border-bottom: 5px black solid;
 }
 
 h1 {
@@ -17,6 +19,7 @@ h1 {
     text-align: center;
     color: white;
     padding-top: 10%;
+    line-height: 1.4em;
 }
 
 .mario {
@@ -28,7 +31,7 @@ h2 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-    padding-top: 2em;
+    padding-top: 1.5em;
 
 }
 /* MAIN */
@@ -38,14 +41,22 @@ main {
 }
 
 main h2 {
-    font-size: 2em;
+    font-size: 1.8em;
     color: #00A0C6;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     font-weight: 600 ;
 }
 
 main p {
     font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.2em;
+}
+
+main h3 {
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    font-size: 18px;
 }
 
 #profile {
@@ -91,6 +102,10 @@ blockquote {
 
 .azzurro {
     color: #00A0C6;
+}
+
+ul {
+    padding: 10px 30px;
 }
 
 /* ELEMENTI NEL MAIN */
